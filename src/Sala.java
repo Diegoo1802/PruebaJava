@@ -8,7 +8,7 @@ public class Sala {
      *
      *
      * **/
-    public Salas(int numero, Peliculas pelicula, int filas, int columnas) {
+    public Sala(int numero, Peliculas pelicula, int filas, int columnas) {
         this.numero = numero;
         this.pelicula = pelicula;
         this.matrizButacas = new boolean[filas][columnas];
